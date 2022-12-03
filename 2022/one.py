@@ -1,5 +1,5 @@
 def load_file():
-    with open("input.txt") as f:
+    with open("inputs/input.txt") as f:
         ct = f.read()
         f.close()
     return ct

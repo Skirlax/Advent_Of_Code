@@ -9,7 +9,7 @@ class Solve:
 
     @staticmethod
     def load_file():
-        with open("input2.txt") as f:
+        with open("inputs/input2.txt") as f:
             ct = f.read()
             f.close()
         return ct
